@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Страница — 1" id="OHqAjD9PE97C0tD5aI7P">
-    <mxGraphModel dx="1240" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="815" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1412,6 +1412,105 @@
         </mxCell>
         <mxCell id="fCbDhTP_GvDkSNPzbTvj-154" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=19;spacing=50;" value="&lt;span&gt;В системе Google Chrome пользователь начинает работу с запуска браузера: он открывает приложение, после чего Chrome восстанавливает последнюю сессию или отображает стартовую страницу и становится полностью готовым к использованию.&lt;/span&gt;&lt;br&gt;&lt;span&gt;Основное назначение браузера - просматривать веб-страницы. Для этого пользователь вводит адрес в строке или переходит по ссылке; Chrome загружает все необходимые ресурсы, выполняет JavaScript, воспроизводит видео и аудио, позволяет прокручивать и масштабировать содержимое, а также мгновенно реагировать на клики и другие действия. Пользователь свободно управляет вкладками и окнами: открывает новые вкладки и окна, переключается между ними, закрывает ненужные, группирует и перетаскивает их в удобном порядке.&lt;/span&gt;&lt;br&gt;&lt;span&gt;При заполнении веб-форм браузер предлагает автозаполнение ранее сохранённых данных и, при первом вводе пароля или платёжной информации, спрашивает, нужно ли сохранить их в встроенном менеджере паролей.&lt;/span&gt;&lt;br&gt;&lt;span&gt;Скачивание и загрузка файлов происходят максимально просто: пользователь одним кликом сохраняет файлы на диск или перетаскивает свои файлы на сайт, а Chrome показывает прогресс и проверяет их на безопасность.&lt;/span&gt;&lt;br&gt;&lt;span&gt;Пользователь может в любой момент установить новые расширения, настроить их, отключить или полностью удалить. Через раздел настроек пользователь меняет внешний вид браузера, выбирает поисковую систему, управляет разрешениями сайтов и при необходимости включает режим инкогнито, в котором ничего не сохраняется после закрытия окна.&lt;/span&gt;&lt;br&gt;&lt;span&gt;При желании пользователь очищает личные данные - историю посещений, куки, кэш изображений и сохранённые пароли - за выбранный период времени. Если пользователь входит в свой Google-аккаунт, Chrome автоматически синхронизирует закладки, пароли, историю, открытые вкладки и настройки со всеми устройствами через серверы Google.&lt;/span&gt;" vertex="1">
           <mxGeometry height="670" width="1120" x="910" y="1795" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-159" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="470" width="20" x="470" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-186" parent="fCbDhTP_GvDkSNPzbTvj-159" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="240" width="10" x="5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-160" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Пользователь" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="2923" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-161" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="470" width="20" x="680" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-162" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Google Chrome" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="2923" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-163" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="470" width="20" x="880" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-164" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Веб-приложение" vertex="1">
+          <mxGeometry height="30" width="60" x="860" y="2923" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-165" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="470" width="25" x="1080" y="2880" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-179" parent="fCbDhTP_GvDkSNPzbTvj-165" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="7.5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-181" parent="fCbDhTP_GvDkSNPzbTvj-165" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="12" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-183" parent="fCbDhTP_GvDkSNPzbTvj-165" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="12" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-166" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Серверы Google" vertex="1">
+          <mxGeometry height="30" width="60" x="1060" y="2923" as="geometry" />
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-167" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="2980" />
+            </Array>
+            <mxPoint x="485" y="2980" as="sourcePoint" />
+            <mxPoint x="689.5" y="2980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-168" connectable="0" parent="fCbDhTP_GvDkSNPzbTvj-167" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1. Ввод URL адреса" vertex="1">
+          <mxGeometry relative="1" x="-0.7178" y="-1" as="geometry">
+            <mxPoint x="30" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-170" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="695" y="3000" as="sourcePoint" />
+            <mxPoint x="890" y="3000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-171" connectable="0" parent="fCbDhTP_GvDkSNPzbTvj-170" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. HTTP/HTTPS запросы" vertex="1">
+          <mxGeometry relative="1" x="-0.7178" y="-1" as="geometry">
+            <mxPoint x="48" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-172" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1087" y="3200" as="sourcePoint" />
+            <mxPoint x="485" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-174" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="fCbDhTP_GvDkSNPzbTvj-179" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="890" y="3030" as="sourcePoint" />
+            <mxPoint x="1080" y="3030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-175" connectable="0" parent="fCbDhTP_GvDkSNPzbTvj-174" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. Возвращает ресурсы страницы" vertex="1">
+          <mxGeometry relative="1" x="-0.7178" y="-1" as="geometry">
+            <mxPoint x="65" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-180" edge="1" parent="1" style="align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="4. Парсит HTML, &#xa;выполняет JavaScript">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="3070" />
+            </Array>
+            <mxPoint x="1098" y="3040" as="sourcePoint" />
+            <mxPoint x="1102.5" y="3070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-184" edge="1" parent="1" style="align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="5. Отрисовывает &#xa;страницу на экране">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="3150" />
+            </Array>
+            <mxPoint x="1098" y="3120" as="sourcePoint" />
+            <mxPoint x="1102.5" y="3150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCbDhTP_GvDkSNPzbTvj-185" connectable="0" parent="1" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];" value="6. Отображает готовую веб-страницу" vertex="1">
+          <mxGeometry x="990" y="3190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
